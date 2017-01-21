@@ -1,0 +1,23 @@
+#body{
+
+}
+
+#appName {
+     font-family: Share Tech;
+     font-size: 4em;
+     text-align: center;
+}
+
+#titleDiv{
+     /*border: 1px solid black;*/
+     padding: 0px;
+     /*display: inline-block;*/
+}
+
+#startButton{
+     height: 3em;
+     width: 30%;
+     font-size: 1em;
+     align-content: center
+     
+}
