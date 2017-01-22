@@ -10,7 +10,13 @@ $(document).ready(
         showCursor: false,
           });
 
+          $("#questionText").typed({
 
+            strings: ["Question #x"],
+            typeSpeed: 60,
+         //    startDelay: 2000,
+            showCursor: false,
+              });
 
 
 

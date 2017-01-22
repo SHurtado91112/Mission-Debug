@@ -1,17 +1,20 @@
 #body{
-
+     background-color: #000000;
 }
 
 #appName {
      font-family: Share Tech;
-     font-size: 4em;
+     font-size: 5em;
      text-align: center;
+     color: #00D9E9;
 }
 
 #titleDiv{
-     /*border: 1px solid black;*/
-     padding: 0px;
-     /*display: inline-block;*/
+     /*border: 1px solid white;*/
+     /*padding: 0px;*/
+     display: inline-block;
+     align-content: center;
+     margin-left: 40%;
 }
 
 #startButton{
@@ -19,5 +22,26 @@
      width: 30%;
      font-size: 1em;
      align-content: center
-     
+     margin: 5em;
+     /*display: block;*/
+     margin-left: 50%;
+     margin-top: 15%;
+}
+
+.answerButtons{
+     height: 5em;
+     width: 15%;
+     margin-right: 20%;
+}
+
+#questionsPage{
+     background-color: #000000;
+}
+
+.regularText{
+     color: red;
+}
+
+#question1, #question2, #question3, #question4, #question5{
+     align-content: center;
 }
